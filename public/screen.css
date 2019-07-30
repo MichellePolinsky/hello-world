@@ -7,6 +7,62 @@ html {
 }
 
 body {
-  margin: 0;
+  background: rgb(131,58,180);
+  background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(135,3,3,1) 50%, rgba(168,54,22,1) 65%, rgba(252,176,69,1) 100%);
+  border: red dotted 10px;
+
+  
+  margin: 5;
   min-height: 100%;
 }
+
+h1 { text-align: center;
+  color: #28d40a;
+  
+  
+}
+.page-title {color:#28d40a}
+
+
+h2 {text-align: center;
+  color: #28d40a;
+  border: red;
+  box-shadow: 1rem 1rem 1rem 1rem yellow;
+
+}  
+
+p {
+  color: #28d40a;
+  text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    text-align: center;
+    border: yellow;
+  }
+
+  .border {
+    border: green;
+    border-style: solid;
+    padding: .5rem;
+    background-color: blueviolet;
+  }
+  
+  .circular--square 
+  {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.rounded {
+    border-radius: 40px;
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
