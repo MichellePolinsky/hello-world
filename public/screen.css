@@ -12,6 +12,8 @@ body {
   border: red dotted 10px;
 
   
+
+  
   margin: 5;
   min-height: 100%;
 }
@@ -28,7 +30,6 @@ h2 {text-align: center;
   color: #28d40a;
   border: red;
   box-shadow: 1rem 1rem 1rem 1rem yellow;
-
 }  
 
 p {
