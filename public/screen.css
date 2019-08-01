@@ -7,74 +7,95 @@ html {
 }
 
 body {
-  background: rgb(131,58,180);
-  background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(135,3,3,1) 50%, rgba(168,54,22,1) 65%, rgba(252,176,69,1) 100%);
+  background: rgb(131, 58, 180);
+  background-image: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(135, 3, 3, 1) 50%,
+    rgba(168, 54, 22, 1) 65%,
+    rgba(252, 176, 69, 1) 100%
+  );
   border: red dotted 10px;
   margin: 5;
   min-height: 100%;
-  animation-direction: alternate-reverse;
-  animation-fill-mode: forwards
 }
-.page-title { 
+.page-title {
   text-align: center;
-  color: #28d40a;}
+  color: #28d40a;
+}
 
 h2 {
   text-align: center;
   color: #28d40a;
   border: red;
   box-shadow: 1rem 1rem 1rem 1rem yellow;
-}  
+}
 
 p {
   color: #28d40a;
   text-align: center;
-  }
+}
 
-  ul {
-    list-style: none;
-    text-align: center;
-    border: orange;
-    border-style: solid;
-    border-radius: 40%;
-    padding:.5rem;
-    color: aqua;
-    background-color: blueviolet
-  }
+ul {
+  list-style: none;
+  text-align: center;
+  border: orange;
+  border-style: solid;
+  border-radius: 40%;
+  padding: 0.5rem;
+  color: aqua;
+  background-color: blueviolet;
+}
 
-  .border {
-    border: orange;
-    border-style: solid;
-    border-radius: 45%;
-    padding: .5rem;
-    background-color: blueviolet;
-  }
+.border {
+  border: orange;
+  border-style: solid;
+  border-radius: 45%;
+  padding: 0.5rem;
+  background-color: blueviolet;
+}
 
-  #para1 {
-    text-align: center;
-    color: #28d40a;  
-  }
-  
-  .circular--square {
-    border-radius: 50%;
-    border: orange;
-    Border-style: dotted;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .rounded {
-    border-radius: 40px;
-    border: orange;
-    border-style: dotted;
-    height: 300px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding: 1%;
-  }
+#para1 {
+  text-align: center;
+  color: #28d40a;
+}
 
+.circular--square {
+  border-radius: 50%;
+  border: orange;
+  border-style: dotted;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded {
+  border-radius: 40px;
+  border: orange;
+  border-style: dotted;
+  height: 300px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 1%;
+}
+
+#box-title {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: blueviolet;
+  text-decoration: underline;
+}
+
+.flextext {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: yellow;
+  font-size: 20px;
+  flex
+}
